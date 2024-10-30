@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.container {
+    width: 800;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: white;
+    padding: 20px;
+}
+
+.content {
+    width: 70%
+    float left;
+}
+
+h1 {
+    font-family: Arial Black;
+    color: black;
+    font-size: 4em;
+    background-color: white;
+    line-height: 150px;
+    margin: 0px,0px, 0px, 10px;
+    padding-left: 20%;
+}
+
+.description {
+    font-size: larger;
+    padding-bottom: 10px;
+    background: gray;
+    border-left: solid 25px black;
+    margin-left: 10px;
+    padding-left: 25px;
+
+}
+
+.sidebar {
+    width: 150px;
+    float: right;
+    background-color: red;
+    padding: 25px;
+    margin-left: 5px;
+    margin-top: 50px;
+    color: white;
+}
