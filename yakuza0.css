@@ -8,15 +8,16 @@
 
 /* Body and overall page styling */
 body {
-  background-color: #f2f2f2;
-  color: #333;
+  background-color: black;
+  color: white;
   line-height: 1.6;
+text-align: center;
 }
 
 /* Navigation styling */
 header {
   background: linear-gradient(135deg, white, red);
-  color: #fff;
+  color: black;
   padding: 1rem 0;
 }
 
@@ -118,6 +119,7 @@ header ul li a:hover {
   display: flex;
   align-items: center;
   gap: 20px;
+  border: 2px solid red;
 }
 
 .character-item h3 {
@@ -135,9 +137,10 @@ header ul li a:hover {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
-  border: 2px solid black;
+  border: 2px solid red;
   border-radius: 10px;
   background: url('https://cdn2.steamgriddb.com/hero/96da2f590cd7246bbde0051047b0d6f7.png') no-repeat center center/cover;
+  color: black;
 }
 
 #story legend {
