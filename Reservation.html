@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservationsformular</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Reservierungsformular</h2>
+    <form action="#" method="post">
+
+        <!--name-->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="ihre Name" required>
+    <br><br>
+
+    <!--Email-->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Beispiel@gmail.com" required>
+<br><br>
+
+
+    <!--Geburtsdatum-->
+    <label for="Reservation">Reservation:</label>
+    <input type="date" id="date" name="Reservation" placeholder="TT.MM.JJ" required>
+<br><br>
+
+    <!--zeit-->
+    <label for="zeit">Zeit</label>
+    <input type="time" id="time" name="time" required>
+<br><br>
+
+    <!--persons-->
+    <label for="Persons">Personen</label>
+    <select id="persons" name="persons" required>
+    <option value=1>1 Person</option>
+    <option value=2>2 Person</option>
+    <option value=3>3 Person</option>
+    <option value=4>4 Person</option>
+    <option value=5>5 Person</option> 
+    </select>
+<br><br>
+
+<!--Comment-->
+<label for="Telefon">Phone nummer</label>
+<input type="tell" id="Phone" name="Phone" required>
+<br><br>
+
+<button type="submit">Absenden</button>
+    </form>
+  </div>
+
+</body>
+</html>

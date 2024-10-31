@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Kleinere Bilder */
+    gap: 10px; /* Abstand zwischen den Bildern */
+}
+
+.gallery img {
+    width: 100%; /* Bilder füllen die Zellen aus */
+    border-radius: 8px; /* Abgerundete Ecken */
+    transition: transform 0.3s; /* Animation für Hover-Effekte */
+}
+
+.gallery img:hover {
+    transform: scale(1.05); /* Bild beim Hover vergrößern */
+}
+
+/* Media Queries für verschiedene Bildschirmgrößen */
+@media (max-width: 600px) {
+    .gallery {
+        grid-template-columns: 1fr; /* 1 Spalte auf mobilen Geräten */
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr); /* 2 Spalten auf Tablets */
+    }
+}
+
+@media (min-width: 901px) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr); /* 3 Spalten auf Desktops */
+    }
+}
